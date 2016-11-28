@@ -16,3 +16,13 @@ en:
     footer:
       license: "© 2016 Copyright by me"
       about: "About"
+  users:
+    new:
+      sign: "Sign up!"
+      con: "Confirm"
+      create: "Create my acount"
+    create:
+      suc: "Succsess!"
+  shared:
+    error_messages:
+      error: "Error"
