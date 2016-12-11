@@ -48,6 +48,14 @@ en:
       delete: "Delete"
     destroy:
       success: "Success"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    following:
+      following: "Following"
+    followers:
+      followers: "Followers"
   sessions:
     new:
       login: "Log in"
@@ -71,3 +79,6 @@ en:
     search_user:
       search: "Search"
       name: "Name"
+    stats:
+      following: "Following"
+      followers: "Followers"

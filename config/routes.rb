@@ -8,6 +8,11 @@ Rails.application.routes.draw do
   namespace :admin do
     resources :categories
   end
-  resources :users
+  resources :users do
+    member do
+      get :following, :followers
+    end
+  end
+  resources :relationships, only: [:create, :destroy]
   get "/:page", to: "static_pages#show"
 end
